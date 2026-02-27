@@ -147,7 +147,7 @@ function AttributionBar() {
   const score = Math.round(fill * 0.64);
 
   return (
-    <div className="bg-white rounded-2xl border border-[#deedea] px-[18px] py-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
+    <div className="bg-white rounded-2xl border border-[#deedea] px-4.5 py-3.5 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
       {/* Top row */}
       <div className="flex justify-between items-center mb-2.5">
         <span className="text-base font-bold text-[#171717]">
@@ -228,7 +228,7 @@ export default function HeroSection() {
       />
 
       {/* ── CONTAINER ── */}
-      <div className="relative z-10 w-full max-w-[1280px] mx-auto px-6 lg:px-16 py-16">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-16 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* ══ LEFT COPY ══════════════════════════════════════════════════ */}
           <div
@@ -272,7 +272,7 @@ export default function HeroSection() {
 
             {/* Description */}
             <p
-              className="text-base font-normal text-[#595959] leading-[1.7] max-w-[400px] mb-8"
+              className="text-base font-normal text-[#595959] leading-[1.7] max-w-100 mb-8"
               style={{ fontFamily: "var(--font-secondary, sans-serif)" }}
             >
               One click reveals the SEO score, traffic, backlinks, and authority
