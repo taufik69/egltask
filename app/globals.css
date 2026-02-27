@@ -133,3 +133,11 @@ p,
   font-size: 16px;
   font-weight: var(--weight-regular);
 }
+
+
+.signin{
+  background-image: url('../public/logingradientbg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
